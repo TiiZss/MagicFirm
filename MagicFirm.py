@@ -189,12 +189,9 @@ else:
     elif sys.platform == 'win32':
         _win_set_time(time_tuple)
         ##print("FIRMAMOS EL DOCUMENTO:", args.file)
-        #cadena = 'python FirmaPDF_Gen.py -i "%s" -s "%s" -x %s -y %s'%(args.file, args.signatureID, args.x_coordinate, args.y_coordinate)
         if args.load:
             cadena = 'python FirmaPDF_Gen.py -l'
         else:    
-            #cadena = 'python FirmaPDF2.py -i "%s" -s "%s" -x %s -y %s'%(args.file, args.signatureID, args.x_coordinate, args.y_coordinate)
-            #cadena = 'python FirmaPDF3.py -i "%s" -s "%s" -x %s -y %s'%(args.file, args.signatureID, args.x_coordinate, args.y_coordinate)
             cadena = 'python FirmaPDF_Gen.py -i "%s" -s "%s" -x %s -y %s'%(args.file, args.signatureID, args.x_coordinate, args.y_coordinate)
             os.system (cadena)
             os.system ("w32tm /resync >NUL")
