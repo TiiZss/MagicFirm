@@ -1,4 +1,4 @@
-# MagicFirm
+# MagicFirm Lite
 ![](https://github.com/TiiZss/MagicFirm/blob/main/img/MagicFirm_1.png)
 
 The tool will ask for a file, a digital certificate and a date.
