@@ -1,4 +1,5 @@
 # MagicFirm Lite
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=AC5N3XX2KGY2S&no_recurring=0&item_name=Seguir+con+el+desarrollo+de+la+herramienta&currency_code=EUR)
 ![](https://github.com/TiiZss/MagicFirm/blob/main/img/MagicFirm_1.png)
 
 The tool will ask for a file, a digital certificate and a date.
