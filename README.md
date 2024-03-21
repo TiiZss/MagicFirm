@@ -17,11 +17,14 @@ python MagicFirm.py -l
 python MagicFirm.py -F 20220916.ABC.es.pdf -D 2022/06/01 -T 12:23:34 -s TiiZss -x 100 -y 100
 ```
 
+## Linux version
+
+Linux version can be found at the [LINUX](https://github.com/TiiZss/MagicFirm/tree/main/LINUX) directory.
+
 ### NOTES:
 - The purpose of this script is for didactic and educational use. The author declines any responsibility for any possible fraudulent use that may be derived from it.
 - The requirements for its correct operation are not explicitly stated in order to avoid the use of it willy-nilly.
 - Windows version need admin privileges
-- Linux version is still in development
 - You must adapt the script for your need
 - The certificates and the signature image must be in the /static directory.
 
